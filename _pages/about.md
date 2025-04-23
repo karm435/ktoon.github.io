@@ -10,7 +10,7 @@ include_in_header: true
 Karma Academy is an Australian-registered business. It develops apps for Apple technologies. 
 
 ## About ktoon
-Karma Academy owns ktoon, an app which helps users to create hooks for social media. 
+Karma Academy owns KToon, an app which helps users to create cartoon style images from the images. 
 
 ## Contact
 You can react to support from in app email for any quries and support.

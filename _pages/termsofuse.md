@@ -7,10 +7,13 @@ include_in_header: true
 Please read these Terms of Use, including those set forth in the Privacy Policy ("Terms", "Terms of Use") carefully before using the ktoon application (the "App") made available by Karma Academy pty ltd ("us", "we", or "our").
 Your access to and use of the App is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the App.
 
-# Seconds Bundles
+# Subscription Payments, Renewals, and Cancellation
 
-Seconds bundles are one time purchases and if you want to add more seconds just buy more of them. If you have any issues with the bundles, all the refunds are handled by Apple. 
-Karma Academy pty ltd does not send invoices to customers that purchase bundle.
+Some parts of the App are billed on a subscription basis ("Subscription(s)"). If you choose to purchase a Subscription, payment will be charged to your Apple ID on a recurring and periodic basis ("Billing Cycle"). Billing cycles are set  on a monthly basis.
+
+Your Subscription will automatically renew under the exact same conditions unless it is canceled at least 24 hours before the end of the current Billing Cycle. Your account will be charged for renewal within 24 hours prior to the end of the current Billing Cycle. You may manage or cancel your Subscription by going to your account settings on the App Store after purchase.
+
+Karma Academy pty ltd does not send invoices to customers that purchase a Subscription. Your account balance information can be accessed by going to your account settings on the App Store after purchase.
 
 # Fee Changes
 
