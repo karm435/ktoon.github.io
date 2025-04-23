@@ -108,7 +108,8 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: /:title/
+    permalink: /:path/
 
 # Markdown rendering
 markdown: kramdown
+include: [".well-known"]
