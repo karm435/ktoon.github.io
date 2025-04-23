@@ -1,0 +1,26 @@
+<div class="faqs">
+    <h2>FAQs</h2>
+    {% for faq in site.faqs %}
+
+    {% if faq.title %}
+    <div class="faq">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-{{ faq.fontawesome_icon_name }} fa-stack-1x"></i>
+            </span>
+        </div>
+        <div class="faqText">
+            <h3>
+                {{ faq.title }}
+            </h3>
+            <p>
+                {{ faq.description }}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
