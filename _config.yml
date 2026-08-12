@@ -1,5 +1,7 @@
 #page title
-page_title                                : KToon                                        # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Make Me Cartoon — AI Photo Art, Toys & Family Collages
+url                                       : https://ktoon.karmaacademy.com.au
+baseurl                                   : ""
 
 # App Info
 ios_app_id                                : 6744203926                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -10,19 +12,19 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : KToon                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Make Me Cartoon
 app_price                                 : 0                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Easy generate cartoon style images.
+app_description                           : Turn favorite photos into illustrated portraits, collectible toys, imaginative scenes, restored memories, and family collages on iPhone.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : KToon Team
+your_name                                 : Make Me Cartoon Team
 your_link                                 : https://ktoon.karmaacademy.com.au
 your_city                                 : Brisbane
-email_address                             : 
+email_address                             : support@karmaacademy.com.au
 facebook_username                         :                                           
 instagram_username                        :
 twitter_username                          : 
@@ -104,6 +106,7 @@ exclude:
   - README.md
   - CNAME
   - vendor
+  - design-qa.md
 
 collections:
   pages:

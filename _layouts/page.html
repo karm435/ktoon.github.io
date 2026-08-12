@@ -1,22 +1,20 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# Front matter keeps Jekyll processing enabled.
 ---
-
-<!DOCTYPE html>
-<html lang="en-us">
-
-{% include head.html %}
-
-<body class="subPageBody">
-    <div class="headerBackground subPageHeaderBackground">
-        <div class="container subPageContainer">
-        {% include header.html %}
-            <article class="page markdown-body">
-                {{ content }}
-            </article>
-        </div>
-        {% include appstoreimages.html %}
-    </div>
-</body>
-
+<!doctype html>
+<html lang="en-AU">
+  {% include head.html %}
+  <body class="legal-body">
+    <header class="site-header legal-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Make Me Cartoon home">
+        <img src="{{ '/assets/images/app-icon.png' | relative_url }}" width="44" height="44" alt="">
+        <span>Make Me Cartoon</span>
+      </a>
+      <a class="button button-small" href="{{ site.appstore_link }}">Get the app</a>
+    </header>
+    <main class="legal-shell">
+      <article class="legal-content">{{ content }}</article>
+    </main>
+    <footer class="legal-footer"><a href="{{ '/' | relative_url }}">Back to home</a></footer>
+  </body>
 </html>
