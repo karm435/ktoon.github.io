@@ -152,7 +152,7 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
       <div class="screen-track" data-carousel-track tabindex="0" aria-label="App Store screenshots">
         {% for number in (1..6) %}
         {% assign padded = number | prepend: '0' | slice: -2, 2 %}
-        <figure class="screen-card"><img src="{{ '/assets/images/app-store-' | append: padded | append: '.png' | relative_url }}" width="944" height="2048" alt="Make Me Cartoon App Store screenshot {{ number }}" loading="lazy"></figure>
+        <figure class="screen-card"><img src="{{ '/assets/images/app-store-' | append: padded | append: '.png' | relative_url }}?v=20260812" width="1320" height="2868" alt="Make Me Cartoon App Store screenshot {{ number }}" loading="lazy"></figure>
         {% endfor %}
       </div>
       <div class="carousel-dots" aria-hidden="true" data-carousel-dots></div>
