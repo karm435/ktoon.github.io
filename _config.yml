@@ -1,5 +1,8 @@
-#page title
-page_title                                : Make Me Cartoon — AI Photo Art, Toys & Family Collages
+# Site identity, used by jekyll-seo-tag for titles, descriptions and social cards
+title                                     : Make Me Cartoon
+tagline                                   : Turn Photos into Cartoons and Art
+description                               : Turn your photos into cartoons, illustrated portraits, collectible toys, new scenes, restored memories and family collages on iPhone.
+locale                                    : en_AU
 url                                       : https://ktoon.karmaacademy.com.au
 baseurl                                   : ""
 
@@ -14,7 +17,7 @@ presskit_download_link                    :                                     
 app_icon                                  : appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Make Me Cartoon
 app_price                                 : 0                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Turn favorite photos into illustrated portraits, collectible toys, imaginative scenes, restored memories, and family collages on iPhone.
+app_publisher                             : Karma Academy
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -48,15 +51,7 @@ features                                  :
     description                           : Modern UI 
     fontawesome_icon_name                 : mobile
 
-faqs                                      :
-
-  - title                                 : How do I create new cartoon?
-    description                           : Just choose a image from photos library or camera and tap generate button
-    fontawesome_icon_name                 : camera
-
-  - title                                 : How do I contact for support?
-    description                           : You can reach out to support@karmaacademy.com.au for support request.
-    fontawesome_icon_name                 : users
+# Homepage FAQs live in _data/faqs.yml
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -100,18 +95,31 @@ footer_text_color                         : "#666666"
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+# SEO tags and sitemap come from the plugins bundled with GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default social share image for every page (1200 x 630, the size Facebook recommends)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/share-before-after.jpg
+        width: 1200
+        height: 630
+        alt: A family photo shown before and after it was turned into illustrated art with Make Me Cartoon
+
 # Exclude these files from your production _site
 exclude:
   - LICENSE
   - README.md
   - CNAME
+  - Gemfile
+  - Gemfile.lock
   - vendor
   - design-qa.md
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
 
 # Markdown rendering
 markdown: kramdown

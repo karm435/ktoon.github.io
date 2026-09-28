@@ -1,0 +1,15 @@
+# Homepage FAQ. Renders the visible list and the FAQPage structured data, so both always match.
+- question: What kinds of images can I create?
+  answer: You can create cartoon and art styles, collectible toy looks, new scenes, restored photos, and family collages. Some results can also be expanded, restyled, or turned into cards and coordinated family packs.
+
+- question: Can I use more than one photo?
+  answer: Yes. Choose Combine Photos when you want to bring subjects from multiple images into one creation.
+
+- question: Will a family collage keep the same number of people?
+  answer: The collage flow is designed around the people detected in your photo and prompts the generation to preserve that count. AI results can vary, so always review the final image before saving or sharing.
+
+- question: Which output sizes are available?
+  answer: Choose portrait, wallpaper, or square output depending on where you want to use the finished image.
+
+- question: Where can I get help?
+  answer: Email support@karmaacademy.com.au and include the device and iOS version you are using.

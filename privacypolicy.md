@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Privacy Policy
+description: The Make Me Cartoon privacy policy explains what information the app collects and how your data is handled.
+permalink: /privacypolicy/
 include_in_header: true
 ---
 
