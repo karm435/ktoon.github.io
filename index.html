@@ -1,12 +1,11 @@
 ---
+# Title and description come from the site title, tagline and description in _config.yml.
 layout: default
-title: Make Me Cartoon — Turn Photos into Art, Toys & Family Collages
-description: Create illustrated portraits, collectible toy figures, imaginative scenes, restored memories, and family collages from your photos on iPhone.
 ---
 
 <header class="site-header" data-header>
   <a class="brand" href="#top" aria-label="Make Me Cartoon home">
-    <img src="{{ '/assets/images/app-icon.png' | relative_url }}" width="48" height="48" alt="">
+    <img src="{{ '/assets/images/app-icon-256.png' | relative_url }}" width="48" height="48" alt="">
     <span>Make Me Cartoon</span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
@@ -26,7 +25,7 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
     <div class="hero-copy reveal">
       <p class="eyebrow">Your photos, reimagined</p>
       <h1 id="hero-title">One photo.<br><em>So many ways to make it yours.</em></h1>
-      <p class="hero-lede">Turn everyday photos into illustrated portraits, collectible toys, imaginative scenes, restored memories, and family collages—right on your iPhone.</p>
+      <p class="hero-lede">Turn everyday photos into cartoons, illustrated portraits, collectible toys, imaginative scenes, restored memories, and family collages, right on your iPhone.</p>
       <div class="hero-actions">
         <a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download Make Me Cartoon on the App Store">
           <img src="{{ '/assets/appstore.png' | relative_url }}" width="238" height="80" alt="Download on the App Store">
@@ -41,13 +40,13 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
     </div>
     <div class="hero-gallery reveal" aria-label="Examples from the app">
       <figure class="hero-card hero-card-back">
-        <img src="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" width="1195" height="1600" alt="A family portrait arranged in a handcrafted shadowbox collage">
+        <img src="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" width="1194" height="1600" alt="A family portrait arranged in a handcrafted shadowbox collage">
       </figure>
       <figure class="hero-card hero-card-main">
-        <img src="{{ '/assets/images/app-home.png' | relative_url }}" width="1179" height="2556" alt="Make Me Cartoon creation screen on iPhone">
+        <img src="{{ '/assets/images/app-home.jpg' | relative_url }}" width="640" height="1387" alt="Make Me Cartoon creation screen on iPhone">
       </figure>
       <figure class="hero-card hero-card-front">
-        <img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1195" height="1600" alt="A generated family memory quilt collage">
+        <img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1194" height="1600" alt="A generated family memory quilt collage">
       </figure>
       <span class="hero-note">Made from a favourite photo</span>
     </div>
@@ -61,9 +60,9 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
     </div>
     <div class="comparison-wrap reveal" data-comparison style="--position: 50%">
       <div class="comparison-frame">
-        <img class="comparison-image comparison-before" src="{{ '/assets/images/family-after.jpg' | relative_url }}" width="1120" height="1408" alt="The four-person family transformed into illustrated artwork">
+        <img class="comparison-image comparison-before" src="{{ '/assets/images/family-after.jpg' | relative_url }}" width="1280" height="1600" alt="The four-person family transformed into illustrated artwork" loading="lazy">
         <div class="comparison-after-wrap">
-          <img class="comparison-image comparison-after" src="{{ '/assets/images/family-before.jpg' | relative_url }}" width="1120" height="1408" alt="Original family portrait before transformation">
+          <img class="comparison-image comparison-after" src="{{ '/assets/images/family-before.jpg' | relative_url }}" width="1280" height="1600" alt="Original family portrait before transformation" loading="lazy">
         </div>
         <span class="compare-label compare-label-before">Before</span>
         <span class="compare-label compare-label-after">After</span>
@@ -98,7 +97,7 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
         </button>
       </div>
       <article class="mode-preview" id="mode-preview" role="tabpanel" aria-live="polite">
-        <div class="mode-preview-image"><img src="{{ '/assets/images/style-cartoon.jpg' | relative_url }}" width="1101" height="1280" alt="Example output for Cartoon and Art" data-mode-image></div>
+        <div class="mode-preview-image"><img src="{{ '/assets/images/style-cartoon.jpg' | relative_url }}" width="1101" height="1280" alt="Example output for Cartoon and Art" loading="lazy" data-mode-image></div>
         <div class="mode-preview-copy">
           <p class="preview-kicker">Choose a direction</p>
           <h3 data-mode-title>Cartoon & Art</h3>
@@ -114,7 +113,7 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
       <div class="collage-copy reveal">
         <p class="eyebrow light">Family collages</p>
         <h2 id="collage-title">Every family has its own shape</h2>
-        <p>Choose a composition made to preserve the exact people in your photo—then turn the group into a frame-worthy story.</p>
+        <p>Choose a composition made to preserve the exact people in your photo, then turn the group into a frame-worthy story.</p>
         <div class="people-selector" aria-label="Choose family size">
           <button class="people-pill is-active" type="button" data-people="2">2 people</button>
           <button class="people-pill" type="button" data-people="3">3 people</button>
@@ -127,12 +126,12 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
         </div>
       </div>
       <div class="collage-showcase reveal">
-        <figure class="collage-main"><img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1195" height="1600" alt="Memory Quilt family collage" data-collage-image></figure>
+        <figure class="collage-main"><img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1194" height="1600" alt="Memory Quilt family collage" loading="lazy" data-collage-image></figure>
         <div class="collage-thumbs" role="list" aria-label="Family collage layouts">
-          <button class="collage-thumb is-active" type="button" data-people-group="2" data-image="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" data-title="Memory Quilt" data-copy="Warm, tactile panels that make a pair feel like part of one handcrafted keepsake." aria-label="Show Memory Quilt"><img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1195" height="1600" alt=""></button>
-          <button class="collage-thumb" type="button" data-people-group="3" data-image="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" data-title="Family Shadowbox" data-copy="A layered, dimensional portrait designed to give a trio a playful sense of depth." aria-label="Show Family Shadowbox"><img src="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" width="1195" height="1600" alt=""></button>
-          <button class="collage-thumb" type="button" data-people-group="4" data-image="{{ '/assets/images/family-ribbon-weave.jpg' | relative_url }}" data-title="Ribbon Weave" data-copy="A flowing composition that lets a bigger family share the frame without losing anyone." aria-label="Show Ribbon Weave"><img src="{{ '/assets/images/family-ribbon-weave.jpg' | relative_url }}" width="1195" height="1600" alt=""></button>
-          <button class="collage-thumb" type="button" data-people-group="4" data-image="{{ '/assets/images/family-corner-peek.jpg' | relative_url }}" data-title="Corner Peek" data-copy="A playful stacked portrait that makes every family member feel part of the surprise." aria-label="Show Corner Peek"><img src="{{ '/assets/images/family-corner-peek.jpg' | relative_url }}" width="1195" height="1600" alt=""></button>
+          <button class="collage-thumb is-active" type="button" data-people-group="2" data-image="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" data-title="Memory Quilt" data-copy="Warm, tactile panels that make a pair feel like part of one handcrafted keepsake." aria-label="Show Memory Quilt"><img src="{{ '/assets/images/family-memory-quilt.jpg' | relative_url }}" width="1194" height="1600" alt="" loading="lazy"></button>
+          <button class="collage-thumb" type="button" data-people-group="3" data-image="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" data-title="Family Shadowbox" data-copy="A layered, dimensional portrait designed to give a trio a playful sense of depth." aria-label="Show Family Shadowbox"><img src="{{ '/assets/images/family-shadowbox.jpg' | relative_url }}" width="1194" height="1600" alt="" loading="lazy"></button>
+          <button class="collage-thumb" type="button" data-people-group="4" data-image="{{ '/assets/images/family-ribbon-weave.jpg' | relative_url }}" data-title="Ribbon Weave" data-copy="A flowing composition that lets a bigger family share the frame without losing anyone." aria-label="Show Ribbon Weave"><img src="{{ '/assets/images/family-ribbon-weave.jpg' | relative_url }}" width="1194" height="1600" alt="" loading="lazy"></button>
+          <button class="collage-thumb" type="button" data-people-group="4" data-image="{{ '/assets/images/family-corner-peek.jpg' | relative_url }}" data-title="Corner Peek" data-copy="A playful stacked portrait that makes every family member feel part of the surprise." aria-label="Show Corner Peek"><img src="{{ '/assets/images/family-corner-peek.jpg' | relative_url }}" width="900" height="1600" alt="" loading="lazy"></button>
         </div>
       </div>
     </div>
@@ -150,9 +149,8 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
         <button type="button" data-carousel-next aria-label="Show next screenshots"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
       </div>
       <div class="screen-track" data-carousel-track tabindex="0" aria-label="App Store screenshots">
-        {% for number in (1..6) %}
-        {% assign padded = number | prepend: '0' | slice: -2, 2 %}
-        <figure class="screen-card"><img src="{{ '/assets/images/app-store-' | append: padded | append: '.png' | relative_url }}?v=20260812" width="1320" height="2868" alt="Make Me Cartoon App Store screenshot {{ number }}" loading="lazy"></figure>
+        {% for shot in site.data.screenshots %}
+        <figure class="screen-card"><img src="{{ '/assets/images/' | append: shot.file | relative_url }}?v=20260812" width="1320" height="2868" alt="{{ shot.alt | escape }}" loading="lazy"></figure>
         {% endfor %}
       </div>
       <div class="carousel-dots" aria-hidden="true" data-carousel-dots></div>
@@ -203,17 +201,15 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
   <section class="faq-section section-shell" id="faq" aria-labelledby="faq-title">
     <div class="section-heading centered reveal"><p class="eyebrow">Questions, answered</p><h2 id="faq-title">Good to know</h2></div>
     <div class="faq-list reveal">
-      <details><summary>What kinds of images can I create?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>You can create cartoon and art styles, collectible toy looks, new scenes, restored photos, and family collages. Some results can also be expanded, restyled, or turned into cards and coordinated family packs.</p></details>
-      <details><summary>Can I use more than one photo?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>Yes. Choose Combine Photos when you want to bring subjects from multiple images into one creation.</p></details>
-      <details><summary>Will a family collage keep the same number of people?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>The collage flow is designed around the people detected in your photo and prompts the generation to preserve that count. AI results can vary, so always review the final image before saving or sharing.</p></details>
-      <details><summary>Which output sizes are available?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>Choose portrait, wallpaper, or square output depending on where you want to use the finished image.</p></details>
-      <details><summary>Where can I get help?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>Email support@karmaacademy.com.au and include the device and iOS version you are using.</p></details>
+      {% for faq in site.data.faqs %}
+      <details><summary>{{ faq.question | escape }}<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><p>{{ faq.answer | escape }}</p></details>
+      {% endfor %}
     </div>
   </section>
 
   <section class="final-cta" aria-labelledby="cta-title">
     <div class="section-shell reveal">
-      <img src="{{ '/assets/images/app-icon.png' | relative_url }}" width="112" height="112" alt="Make Me Cartoon app icon">
+      <img src="{{ '/assets/images/app-icon-256.png' | relative_url }}" width="112" height="112" alt="Make Me Cartoon app icon" loading="lazy">
       <p class="eyebrow light">A new version of a familiar moment</p>
       <h2 id="cta-title">What will your favourite photo become?</h2>
       <a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download Make Me Cartoon on the App Store"><img src="{{ '/assets/appstore.png' | relative_url }}" width="238" height="80" alt="Download on the App Store"></a>
@@ -222,23 +218,24 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
 </main>
 
 <footer class="site-footer">
-  <div class="footer-brand"><img src="{{ '/assets/images/app-icon.png' | relative_url }}" width="42" height="42" alt=""><span>Make Me Cartoon</span></div>
+  <div class="footer-brand"><img src="{{ '/assets/images/app-icon-256.png' | relative_url }}" width="42" height="42" alt="" loading="lazy"><span>Make Me Cartoon</span></div>
   <p>Made in Brisbane for photos worth keeping.</p>
-  <nav aria-label="Footer navigation"><a href="{{ '/privacypolicy/' | relative_url }}">Privacy</a><a href="{{ '/termsofuse/' | relative_url }}">Terms</a><a href="{{ '/faqs/' | relative_url }}">Support</a></nav>
+  <nav aria-label="Footer navigation"><a href="{{ '/about/' | relative_url }}">About</a><a href="{{ '/privacypolicy/' | relative_url }}">Privacy</a><a href="{{ '/termsofuse/' | relative_url }}">Terms</a><a href="{{ '/faqs/' | relative_url }}">Support</a></nav>
 </footer>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
-  "name": "Make Me Cartoon",
+  "name": {{ site.app_name | jsonify }},
   "operatingSystem": "iOS",
   "applicationCategory": "MultimediaApplication",
-  "description": "Turn favorite photos into illustrated portraits, collectible toys, imaginative scenes, restored memories, and family collages on iPhone.",
-  "image": "{{ '/assets/images/app-icon.png' | absolute_url }}",
-  "url": "{{ '/' | absolute_url }}",
-  "downloadUrl": "{{ site.appstore_link }}",
-  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}
+  "description": {{ site.description | jsonify }},
+  "image": {{ '/assets/images/app-icon.png' | absolute_url | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "downloadUrl": {{ site.appstore_link | jsonify }},
+  "publisher": {"@type": "Organization", "name": {{ site.app_publisher | jsonify }}},
+  "offers": {"@type": "Offer", "price": {{ site.app_price | jsonify }}, "priceCurrency": "AUD"}
 }
 </script>
 <script type="application/ld+json">
@@ -246,9 +243,8 @@ description: Create illustrated portraits, collectible toy figures, imaginative 
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"What kinds of images can I create?","acceptedAnswer":{"@type":"Answer","text":"Create cartoon and art styles, collectible toy looks, new scenes, restored photos, and family collages."}},
-    {"@type":"Question","name":"Can I use more than one photo?","acceptedAnswer":{"@type":"Answer","text":"Yes. Choose Combine Photos to bring subjects from multiple images into one creation."}},
-    {"@type":"Question","name":"Which output sizes are available?","acceptedAnswer":{"@type":"Answer","text":"Choose portrait, wallpaper, or square output."}}
+    {% for faq in site.data.faqs %}{"@type": "Question", "name": {{ faq.question | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ faq.answer | jsonify }}}}{% unless forloop.last %},
+    {% endunless %}{% endfor %}
   ]
 }
 </script>
